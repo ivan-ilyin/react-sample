@@ -1,5 +1,9 @@
 {
   "name": "react-sample",
   "version": "0.1.0",
-  "private": true
+  "homepage": "https://ivan-ilyin.github.io/react-sample",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
