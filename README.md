@@ -1,0 +1,1 @@
+attempts at deploying a react app to github pages. ran into issues with the tutorial and may need to give up for now and try it on localhost... Could be related to my custom domain but I think I'm missing something else.
