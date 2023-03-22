@@ -20,9 +20,16 @@
 }
 
 .Resume-button {
-  color: #045d76;
-  background-color: aliceblue;
+  color: #ffffff;
+  background-color: rgb(2, 77, 144);
   min-height: 10vmin;
-  padding: 10vmin;
+  padding: 2vmin 5vmin;
+  font-size: 2vh;
 }
 
+.Inline-link {
+  color:rgb(2, 77, 144);
+}
+.Inline-link:hover {
+  color:cyan;
+}
