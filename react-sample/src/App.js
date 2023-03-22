@@ -1,5 +1,6 @@
 import headshot from './headshot.jfif';
 import './App.css';
+import { Email } from "react-obfuscate-email";
 
 
 function App() {
@@ -10,10 +11,10 @@ function App() {
         <h2>You have reached the personal website of</h2>
         <h1>Ivan Ilyin</h1>
         <img class="Headshot" src={headshot} alt="headshot of me" />
-        <button class="Main-link" href="/Ivan-Ilyin-Resume-MAR21-webdev.pdf">
-          Open my resume
-        </button>
-        <p>Please leave a message in <a class="Main-link" href={"mailto:" + {emailAddress}}>my email</a></p>
+        <a target="_blank" class="Resume-button" href="/Ivan-Ilyin-Resume-MAR21-webdev.pdf">
+          <button>Open my resume</button>
+        </a>
+        <p>Feel free to contact me at my email: <Email email="ilyin.ivan@gmail.com">ilyin.ivan@gmail.com"</Email></p>
         <p>Or visit my <a class="Main-link" href="https://www.linkedin.com/in/ivan-ilyin">LinkedIn page</a></p>
       </header>
     </div>

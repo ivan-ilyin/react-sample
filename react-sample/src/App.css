@@ -19,7 +19,10 @@
   color: white;
 }
 
-.Main-link {
-  color: #61dafb;
+.Resume-button {
+  color: #045d76;
+  background-color: aliceblue;
+  min-height: 10vmin;
+  padding: 10vmin;
 }
 
